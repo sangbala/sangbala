@@ -1,0 +1,88 @@
+
+<html>
+    <!--
+    Name: Your Name 
+    Date Created: Today's date 
+    Most recent revision:
+    -->
+	<head>
+		<title>Contact Us</title>
+		<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+		
+	<style>
+	label{
+	font-weight: bold;
+	}
+	
+	</style>
+	</head>
+	<body>
+		<header><h1>Contact Us</h1></header>
+		<nav>
+		<hr /> 
+		<p ><a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="menu.html">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="contact.html">Contact Us</a></p>
+		<hr /> 
+		</nav>
+		
+	
+		<form action="submit.html" method="POST">
+            <!-- First Name label and textbox -->
+			<label for="Name">Name:</label> 
+			<input type="text" id="Name" name="Name"><br />
+            <br />
+			<label for="Email">Email:</label>
+			<input type="text" id="Email" name="Email"><br />
+			<br />
+			<label for="phone">Phone:</label>
+			<input type="text"id="phone" name="phone"><br />
+			<br />
+            <!-- Dropdown menu -->
+			<label for="Reason for Inquiry">Reason for Inquiry:</label>
+			<select id="Reason for Inquiry" name="Reason for Inquiry">
+				<option value="default" selected>Catering</option>
+				<option value="Private Party">Private Party</option>
+				<option value="Feedback">Feedback</option>
+				<option value="Other">Other</option>
+			</select>
+			<!-- Textarea -->
+			<br />
+			<label for="info">Additional Information:</label>
+			<textarea id="info"></textarea><br />
+			
+			     <!-- Radio buttons -->
+			
+			<label for="info">Have you been to the restaurant?</label>
+			<input type="radio" id="choice1" name="questionnaire" value="no">
+			<label for="choice1">No</label>
+			<input type="radio" id="choice2" name="questionnaire" value="yes">
+			<label for="choice2">Yes</label><br />
+			
+			
+			
+			
+            <!-- Check list -->
+	 
+			<label for="info">Best days to contact you:   </label>
+			<input type="checkbox" id="M" name="day" value="M">
+			<label for="frontEnd">M</label>			 
+			<input type="checkbox" id="T" name="day" value="T">
+			<label for="backEnd">T</label>
+			<input type="checkbox" id="W" name="day" value="W">
+			<label for="database">W</label> 
+			<input type="checkbox" id="Th" name="day" value="Th">
+			<label for="database">Th</label> 
+			<input type="checkbox" id="F" name="day" value="F">
+			<label for="database">F</label> 
+       
+            <br />
+            <!-- Submit button -->
+			<input type="submit" name="Send Request" value="Send Request">
+		</form>
+		
+	</body>
+</html>
+<footer> 
+     <hr />
+     <p> 1 Elm St, Earth, Universe, AAA</p>
+	 <p> Telephone Number:200-200-200</p>
+</footer>

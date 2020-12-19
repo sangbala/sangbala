@@ -1,0 +1,55 @@
+body {
+    background-color: lightblue;
+}
+
+header, footer {
+    background-color: darkgreen;
+    color: white; 
+}
+
+.border {
+    border: thick solid blue;
+}
+
+#experience {
+    border: thick dashed orange;
+}
+ 
+ 
+ 
+nav a {
+  text-decoration: none;
+}
+
+ nav a:visited {
+    color: blue; 
+}
+
+nav a:hover {
+ 
+	font-weight: bold;
+}
+
+nav a:active {
+      text-decoration: underline;
+
+}
+table {
+  width: 100%;
+}
+
+th {
+  height: 25px;
+}
+tr th{
+  text-align: center;
+}
+tbody tr:nth-child(even) {
+  background-color: white;
+  color: black; 
+}
+
+tbody tr:nth-child(odd) {
+  background-color: silver;
+  color: black; 
+}
